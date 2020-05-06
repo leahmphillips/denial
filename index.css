@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: #FFA8AE;
+}
+
+* {
+    font-size: 1.25rem;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+#success, #denied, #unknown {
+    display: none;
+}
+
+#success.show-it, #denied.show-it, #unknown.show-it {
+    display: block;
+}
+
+#success {
+    color: #28A745;
+}
+
+#denied {
+    color: #DC3545;
+}
